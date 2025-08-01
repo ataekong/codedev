@@ -1,0 +1,341 @@
+body {
+  margin: 0%;
+  background: url(image/code.jpeg) center;
+  background-size: cover;
+}
+
+.first {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.second {
+  color: red;
+  font-family: sans-serif;
+  font-style: italic;
+}
+p {
+  color: white;
+}
+.top_phrase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.hasp {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.cda {
+  color: rgb(238, 5, 5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+span {
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-left: 10px;
+}
+button {
+  font-size: 20px;
+  padding: 10px 10px;
+  color: rgb(226, 120, 33);
+  border: 5px solid;
+  background: transparent;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  letter-spacing: 2px;
+}
+.bolt {
+  margin-right: 10px;
+}
+button:hover {
+  transform: translateY(-5px);
+  color: red;
+}
+/*@keyframes anim {
+0% {
+  transform: translateY(0);
+}
+20% {
+  transform: translateY(0);
+}
+40% {
+  transform: translateY(-30px);
+}
+50% {
+  transform: translateY(0);
+}
+60% {
+  transform: translateY(-15px);
+}
+80% {
+  transform: translateY(0);
+}
+100% {
+  transform: translateY(0);
+}*/
+.hasp {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/*.homm {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: aqua;
+  transition: transform 0.3s;
+}
+.homm:hover {
+  background-color: rgba(255, 255, 255, 0.155);
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  transform: translateY(-5px);
+}*/
+.aboo {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(255, 0, 60, 0.671);
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+.aboo:hover {
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: rgba(255, 0, 0, 0.326);
+  transform: translateY(-5px);
+}
+.homm {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(255, 0, 60, 0.671);
+  background-color: rgba(33, 30, 46, 0.945);
+  text-decoration: none;
+
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+.homm:hover {
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: rgba(255, 0, 0, 0.326);
+  transform: translateY(-5px);
+}
+.servv {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(255, 0, 60, 0.671);
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+.servv:hover {
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: rgba(255, 0, 0, 0.326);
+  transform: translateY(-5px);
+}
+.hell {
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(255, 0, 60, 0.671);
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+.hell:hover {
+  background-color: rgba(33, 30, 46, 0.945);
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: rgba(255, 0, 60, 0.671);
+  transform: translateY(-5px);
+}
+.city {
+  color: white;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: antiquewhite;
+  margin-left: 40%;
+  font-family: sans-serif;
+}
+a {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+p {
+  font-size: 17px;
+  margin-left: 30%;
+}
+.peac {
+  padding-left: 10px;
+  padding-right: 3%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+}
+.peck {
+  padding-left: 10px;
+  padding-right: 3%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+  margin-left: 10px;
+}
+.away {
+  display: flex;
+  flex-direction: row;
+}
+.picc {
+  padding-left: 10px;
+  padding-right: 60%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+  margin-top: 15px;
+}
+.passy {
+  padding-left: 10px;
+  padding-right: 60%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+  margin-top: 15px;
+}
+.boom {
+  background-color: aliceblue;
+  margin-top: 15px;
+  padding: 2% 40%;
+  border-radius: 15px;
+}
+.parr {
+  margin-left: 35%;
+}
+@media (max-width: 946px) {
+  button {
+    font-size: 10px;
+  }
+  .homm,
+  .aboo,
+  .servv,
+  .hell {
+    font-size: 10px;
+    color: white;
+  }
+  .cda {
+    font-size: 20px;
+    color: white;
+  }
+  span {
+    color: rgb(238, 20, 20);
+  }
+}
+@media (max-width: 680px) {
+  .bleek {
+    display: none;
+  }
+  .cda {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  span {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 521px) {
+  .bolt {
+    border-radius: 40px;
+    background-color: brown;
+    color: white;
+    outline: none;
+    font-size: 12px;
+  }
+  .bolt:hover {
+    background-color: rgb(247, 10, 10);
+    color: black;
+    font-size: 12px;
+  }
+  .servv {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .away {
+    display: flex;
+    flex-direction: column;
+  }
+  .picc {
+    margin-right: 0%;
+  }
+  .peck {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+  }
+  .peac {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .picc {
+    border-radius: 20px;
+    padding-right: 30%;
+    margin-left: 10%;
+  }
+  .passy {
+    border-radius: 20px;
+    padding-right: 30%;
+    margin-left: 10%;
+  }
+  .boom {
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding-left: 20%;
+  }
+}
